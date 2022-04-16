@@ -11,18 +11,27 @@
 </head>
 
 <body>
+ <body data-spy="scroll" data-target="#main-nav" data-offset="60"></body>
 <!-- Navbar -->
-    <nav class="navbar navbar-default ">
-        <div>
-            <button>Sienna Li</button>
-        </div>
-        <div>
-            <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><button>Contact</button></li>
-              </ul>
+    <nav id="main-nav" class="navbar navbar-default ">
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+              </button>
+              <a class="navbar-brand scroll" href="#top"><img class="pull-left logo" height=150% src="./assets/image/l228vj09.png" alt="SL Logo"><span>Sienna Li</span></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a class="scroll" href="#about">About Me</a></li>
+                    <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+                    <li><button class="btn td-btn small outline purple" data-toggle="modal" data-target="#contactModal">Contact</button></li>
+                </ul>
+            </div>
         </div>
     </nav>
     
@@ -42,6 +51,12 @@
           </div>
         </div>
     </header>
+
+
+
+
+    
+</body>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
