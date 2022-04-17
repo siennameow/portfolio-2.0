@@ -69,19 +69,6 @@ $menuButton.on('click', function () {
 		}, 900);
 	});
 
-	// Social icons hover effect
-	$socialIcon.on({
-		'focus mouseenter': function () {
-			var $iconImg = $(this).children();
-			var $href = $iconImg.attr('src').slice(0, -18) + 'color.png?raw=true'; // Remove 'black.svg' from end and add 'color.svg'
-			$iconImg.attr('src', $href);
-		},
-		'blur mouseleave': function () {
-			var $iconImg = $(this).children();
-			var $href = $iconImg.attr('src').slice(0, -18) + 'black.png?raw=true';
-			$iconImg.attr('src', $href);
-		}
-	});
 
 	// Center modals vertically
 	function centerModal() {
