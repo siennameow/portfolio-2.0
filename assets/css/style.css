@@ -321,19 +321,17 @@ footer.row {
 .icon + p { 
   margin-top: 15px;
 }
-/* Profile Pic */
+
 .profile {
   max-width: 180px;
   padding: 0 15px 0 0;
 }
-/* Glyphicons */
+
 .glyphicon-heart {
   color: #37c6df;
 }
 
-/* =====================
-  Resume Modal
-===================== */
+
 #resumeModal h4 {
   margin-top: 0;
 }
@@ -341,9 +339,7 @@ footer.row {
   text-align: right;
 }
 
-/* =====================
-  Portfolio Projects
-===================== */
+
 #projects .carousel-control {
   background: none;
   color: #fffefd;
@@ -400,7 +396,7 @@ footer.row {
   height: 17px;
   width: 17px;
 }
-/*** Project Modals ***/
+
 .hero {
   margin: 30px auto;
   max-width: 900px;
@@ -411,14 +407,12 @@ footer.row {
     border-radius: 0;
     font-weight: normal;
 }
-/* To override button alignment in modals */
+
 .center {
   text-align: center;
 }
 
-/* =====================
-  Other Styles
-===================== */
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -462,24 +456,22 @@ footer.row {
 .dashed {
   border-top: 2px dashed #37c6df;
 }
-/*** Contact Form ***/
+
 .checkbox {
   display: none;
 }
 
-/* =====================
-  Media Queries
-===================== */
+
 @media (max-width: 1199px) {
-  /* Center class for medium screens */
+
   .md-center { text-align: center; }
 }
 @media (max-width: 991px) {
-  /*** Resume ***/
+
   .year {
     text-align: left;
   }
-  /*** Portfolio ***/
+
   #projects .carousel-control {
     margin-top: 300%;
   }
@@ -489,16 +481,16 @@ footer.row {
   }
 }
 @media (max-width: 767px) {
-  /*** Page Elements ***/
+
   section .row [class^="col-sm-"] + [class^="col-sm-"],
   section .row [class*=" col-sm-"] + [class*=" col-sm-"] {
     margin-top: 30px;
   }
-  /*** Jumbotron ***/
+
   .jumbotron .logo {
     max-width: 120px;
   }
-  /*** Mobile Nav ***/
+
   .navbar-toggle {
     height: 36px;
     margin-bottom: 22px;
@@ -530,7 +522,7 @@ footer.row {
     margin: 15px auto 30px;
     max-width: 150px;
   }
-  /*** Portfolio ***/
+
   #projects .carousel-control {
     margin-top: 300%;
   }

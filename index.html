@@ -432,7 +432,47 @@
     </div>
   </div>
 
-
+<!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactTitle">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-indigo">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title" id="contactTitle">Contact Me</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <form class="mb-15">
+            <div class="form-group">
+              <label class="sr-only" for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="message">Message</label>
+              <textarea class="form-control" id="message" rows="6" placeholder="Your message here..." required></textarea>
+            </div>
+            <small>*All fields are required</small>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> I'm a robot!
+              </label>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <button type="button" class="btn td-btn outline small white" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn td-btn outline small white">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   
 </body>
