@@ -12,15 +12,15 @@ body {
   line-height: 1.5;
 }
 h1 {
-  font-family: 'Unica One', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 3rem;
 }
 h2 {
-  font-family: 'Unica One', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 2.3rem;
 }
 h3 {
-  font-family: 'Unica One', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 1.8rem;
 }
 h4 {
@@ -70,7 +70,7 @@ hr {
 }
 .navbar-brand,
 .navbar-nav > li > a {
-  font-family: 'Unica One', cursive;
+  font-family: 'Righteous', cursive;
   padding-bottom: 0;
   padding-top: 0;
 }
