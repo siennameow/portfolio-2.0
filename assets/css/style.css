@@ -259,7 +259,7 @@ footer.row {
 }
 .outline.white {
   border-color: #fffefd;
-  color: #fffefd;
+  color: #37c6df;
 }
 .outline.white:focus,
 .outline.white:hover {
@@ -269,7 +269,7 @@ footer.row {
 
 .navbar-nav .outline.pink {
   border-color: #37c6df;
-  color: #37c6df;
+  color: #7122e7;
   margin: 20px 15px 0;
   padding-top: 0;
 }
