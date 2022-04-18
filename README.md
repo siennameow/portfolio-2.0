@@ -28,11 +28,13 @@ Please Enjoy! ❤️
 
 Desktop Version
 
+![Sienna Li _ Web Developer](https://user-images.githubusercontent.com/101283174/163751698-2032e2c8-296b-4764-a00c-7439b7324d2e.gif)
 
 
 
 Mobile Version  
 
+![Sienna Li _ Web Developer (1)](https://user-images.githubusercontent.com/101283174/163751707-ef9ca96c-2140-41e9-bd4d-060656906f4f.gif)
 
 
 
@@ -53,6 +55,7 @@ Mobile Version
 ## Code-Snippet 💻
 
 HTML
+
 Contact Modal
 ```html
 <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactTitle">
