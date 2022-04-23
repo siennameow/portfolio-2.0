@@ -1,4 +1,5 @@
 # My Portfolio 2.0🔥
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/portfolio-2.0/blob/main/LICENSE)
 
 Hi, I’m Sienna Li! 👋
 
@@ -20,6 +21,7 @@ Please Enjoy! ❤️
 * [Code-Snippet 💻](#code-snippet-)
 * [Usage 💡](#usage-)
 * [Technologies 🔧](#technologies-)
+* [License 📜](#license-)
 * [Authors 👩](#authors-)
 * [Credits 🙌](#credits-)
 
@@ -182,6 +184,9 @@ If you want to use the template to create your own portfolio, you can :
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [jQuery](https://jquery.com/)
 * [Bootstrap](https://getbootstrap.com/)
+
+## License 📜
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/portfolio-2.0/blob/main/LICENSE)
 
 ## Authors 👩
 
