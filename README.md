@@ -186,7 +186,7 @@ If you want to use the template to create your own portfolio, you can :
 * [Bootstrap](https://getbootstrap.com/)
 
 ## License 📜
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/portfolio-2.0/blob/main/LICENSE)
+© 2022 Sienna Li, All Rights Reserved. Licensed under[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/portfolio-2.0/blob/main/LICENSE)
 
 ## Authors 👩
 
